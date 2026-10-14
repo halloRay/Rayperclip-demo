@@ -1,0 +1,33 @@
+:root {
+  --slidev-theme-primary: #e5e7eb;
+}
+
+.slidev-layout,
+.slidev-page {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  background: linear-gradient(90deg, #ffffff 0%, #9ca3af 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 700;
+}
+
+.slidev-layout li::marker {
+  color: #9ca3af;
+}
+
+.slidev-layout strong {
+  color: #fff;
+}
+
+.slidev-layout img {
+  border-radius: 12px;
+  max-height: 380px;
+}
